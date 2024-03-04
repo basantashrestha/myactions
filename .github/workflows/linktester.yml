@@ -26,5 +26,6 @@ jobs:
               echo "URL $url is reachable."
             else
               echo "URL $url is unreachable."
+              exit 1
             fi
           done
